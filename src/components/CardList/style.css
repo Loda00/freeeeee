@@ -1,0 +1,32 @@
+.card-list__wrapper {
+  display: flex;
+  justify-content: space-between;
+  height: auto;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #f3f3f3;
+}
+
+.card-list__image {
+  display: flex;
+  align-items: center;
+  width: 240px;
+}
+
+.card-list__info {
+  width: calc(100% - 360px);
+  padding: 5px 15px;
+}
+
+.card-list__pay {
+  width: 120px;
+}
+
+p {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+span {
+  font-size: 12px;
+}
